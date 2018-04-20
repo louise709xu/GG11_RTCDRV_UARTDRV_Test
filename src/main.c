@@ -35,10 +35,10 @@ DEFINE_BUF_QUEUE(EMDRV_UARTDRV_MAX_CONCURRENT_TX_BUFS, eco_txBufferQueue);
 // Configuration for USART0, location 0
 #define VECNAV_UART                                      \
   {                                                      \
-    USART2,                                              \
+    USART5,                                              \
     115200,                                              \
-    _USART_ROUTELOC0_TXLOC_LOC5,                         \
-    _USART_ROUTELOC0_RXLOC_LOC5,                         \
+    _USART_ROUTELOC0_TXLOC_LOC0,                         \
+    _USART_ROUTELOC0_RXLOC_LOC0,                         \
     usartStopbits1,                                      \
     usartNoParity,                                       \
     usartOVS16,                                          \
